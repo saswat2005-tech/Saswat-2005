@@ -50,3 +50,8 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (max-width: 1018px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
