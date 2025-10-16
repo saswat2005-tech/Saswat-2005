@@ -45,18 +45,8 @@ img{
     object-fit: cover;
 }
 
-@media (max-width: 768px){
-    .container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media (max-width: 1024px){
-    .container{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media (max-width: 388px){
-    .container{
-        grid-template-columns: 1fr;
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
